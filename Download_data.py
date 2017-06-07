@@ -50,9 +50,10 @@ class JSONProvider():
                 yield from self.provideRecur(doc[key], remainingPath)
 
 class APIUrl:
-    def __init__(self, parts, providers={}):
+    def __init__(self, parts, providers={}, base=""):
         self.parts = parts
         self.providers = providers
+        self.base = base
 
     def dependencies(self):
         return sum((p.dependencies() for p in self.parts), [])
@@ -66,7 +67,7 @@ class APIUrl:
     def download(self, params):
         url = self.binded(params)
         print("downloading %s..." % (url,))
-        return urlopen(url).read().decode('utf-8')
+        return urlopen(self.base + url).read().decode('utf-8')
     
     def provide(self, source):
         return dict((
@@ -95,10 +96,10 @@ class APIUrl:
 
     @staticmethod
     def from_json(endpoint, base=""):
-        parts = [ConstantPart(base)] + APIUrl.makeParts(endpoint["url"])
+        parts = APIUrl.makeParts(endpoint["url"])
         provides = endpoint.get("provides", {})
         providers = dict((k,JSONProvider(v)) for k,v in provides.items())
-        return APIUrl(parts, providers)
+        return APIUrl(parts, providers, base)
 
 def all_param_values(d, pnames):
     params = map(d.get, pnames)
@@ -107,18 +108,15 @@ def all_param_values(d, pnames):
 
 
 class ResultSaver:
-    def __init__(self, base="/", extension=".json"):
-        self.base = base
+    def __init__(self, outFolder=pathlib.Path("."), extension=".json"):
+        self.outFolder = outFolder
         self.extension = extension
     def save(self, url, contents):
-        if url.startswith(self.base):
-            url = url[len(self.base):]
         if not url.endswith(self.extension):
             url += self.extension
-        path = pathlib.Path(url)
+        path = self.outFolder / pathlib.Path(url)
         path.parent.mkdir(parents=True, exist_ok=True)
-        with path.open('w') as f:
-            f.write(contents)
+        with path.open('w') as f: f.write(contents)
 
 
 class AllAPI:
@@ -138,11 +136,11 @@ class AllAPI:
 
     def download_step(self):
         self.loop = False
-        for url in self.urls: self.download_url(url)
+        list(map(self.download_url, self.urls))
 
     def download_url(self, url):
         deps = url.dependencies()
-        if not set(deps).issubset(self.params.keys()): return
+        if not set(deps).issubset(self.params.keys()): return False
         for url_params in all_param_values(self.params, deps):
             todo = (url, tuple(url_params.values()))
             if todo in self.done: continue
@@ -166,13 +164,13 @@ class AllAPI:
                 prev = self.params.get(param, set())
                 prev.update(values)
                 self.params[param] = prev
-            self.loop = True  
+            self.loop = True
 
     @staticmethod
     def from_json(obj):
         base = obj.get("base", "")
         urls = (APIUrl.from_json(url, base=base) for url in obj["urls"])
-        return AllAPI(urls, ResultSaver(base=base))
+        return AllAPI(urls, ResultSaver())
 
 
 # In[83]:
