@@ -1,0 +1,579 @@
+[ {
+  "status" : "COMPLETE",
+  "stageId" : 6,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 200,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 293503,
+  "executorCpuTime" : 211793099950,
+  "submissionTime" : "2017-06-04T16:43:53.696GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:53.697GMT",
+  "completionTime" : "2017-06-04T16:43:58.399GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 2983545437,
+  "shuffleReadRecords" : 261840031,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 14743,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "211793099950"
+  }, {
+    "id" : 4955,
+    "name" : "duration total (min, med, max)",
+    "value" : "245743"
+  }, {
+    "id" : 14752,
+    "name" : "internal.metrics.shuffle.read.localBlocksFetched",
+    "value" : "5794"
+  }, {
+    "id" : 4967,
+    "name" : "peak memory total (min, med, max)",
+    "value" : "4194303799"
+  }, {
+    "id" : 14755,
+    "name" : "internal.metrics.shuffle.read.fetchWaitTime",
+    "value" : "435"
+  }, {
+    "id" : 4958,
+    "name" : "sort time total (min, med, max)",
+    "value" : "47185"
+  }, {
+    "id" : 14746,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "55"
+  }, {
+    "id" : 14740,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "9951"
+  }, {
+    "id" : 14749,
+    "name" : "internal.metrics.peakExecutionMemory",
+    "value" : "26759659520"
+  }, {
+    "id" : 4966,
+    "name" : "sort time total (min, med, max)",
+    "value" : "3089"
+  }, {
+    "id" : 4957,
+    "name" : "duration total (min, med, max)",
+    "value" : "77041"
+  }, {
+    "id" : 14742,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "293503"
+  }, {
+    "id" : 14751,
+    "name" : "internal.metrics.shuffle.read.remoteBlocksFetched",
+    "value" : "75206"
+  }, {
+    "id" : 14745,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "37353"
+  }, {
+    "id" : 14754,
+    "name" : "internal.metrics.shuffle.read.localBytesRead",
+    "value" : "213654434"
+  }, {
+    "id" : 4965,
+    "name" : "duration total (min, med, max)",
+    "value" : "199741"
+  }, {
+    "id" : 4956,
+    "name" : "number of output rows",
+    "value" : "4482695"
+  }, {
+    "id" : 4959,
+    "name" : "peak memory total (min, med, max)",
+    "value" : "22565355319"
+  }, {
+    "id" : 14756,
+    "name" : "internal.metrics.shuffle.read.recordsRead",
+    "value" : "261840031"
+  }, {
+    "id" : 14741,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "6391650834"
+  }, {
+    "id" : 14750,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38808,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102984,0))]"
+  }, {
+    "id" : 14744,
+    "name" : "internal.metrics.resultSize",
+    "value" : "736640"
+  }, {
+    "id" : 14753,
+    "name" : "internal.metrics.shuffle.read.remoteBytesRead",
+    "value" : "2769891003"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 5,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 100,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 25284,
+  "executorCpuTime" : 23137201051,
+  "submissionTime" : "2017-06-04T16:43:46.667GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:52.132GMT",
+  "completionTime" : "2017-06-04T16:43:53.543GMT",
+  "inputBytes" : 106260200,
+  "inputRecords" : 2209,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 269563424,
+  "shuffleWriteRecords" : 21856586,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 5000,
+    "name" : "internal.metrics.resultSize",
+    "value" : "262183"
+  }, {
+    "id" : 4999,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "23137201051"
+  }, {
+    "id" : 5017,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "2209"
+  }, {
+    "id" : 5002,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "9"
+  }, {
+    "id" : 4969,
+    "name" : "duration total (min, med, max)",
+    "value" : "20326"
+  }, {
+    "id" : 4996,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "1017"
+  }, {
+    "id" : 5014,
+    "name" : "internal.metrics.shuffle.write.recordsWritten",
+    "value" : "21856586"
+  }, {
+    "id" : 4954,
+    "name" : "data size total (min, med, max)",
+    "value" : "874263339"
+  }, {
+    "id" : 5016,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "106260200"
+  }, {
+    "id" : 4971,
+    "name" : "number of output rows",
+    "value" : "21856586"
+  }, {
+    "id" : 4998,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "25284"
+  }, {
+    "id" : 5001,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "1365"
+  }, {
+    "id" : 5013,
+    "name" : "internal.metrics.shuffle.write.bytesWritten",
+    "value" : "269563424"
+  }, {
+    "id" : 5006,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10300,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23584,0))]"
+  }, {
+    "id" : 4997,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "711414619"
+  }, {
+    "id" : 5015,
+    "name" : "internal.metrics.shuffle.write.writeTime",
+    "value" : "3006501423"
+  }, {
+    "id" : 4970,
+    "name" : "number of output rows",
+    "value" : "21856586"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 4,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 305,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 399137,
+  "executorCpuTime" : 295380271326,
+  "submissionTime" : "2017-06-04T16:43:46.635GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:46.636GMT",
+  "completionTime" : "2017-06-04T16:43:53.115GMT",
+  "inputBytes" : 8286239777,
+  "inputRecords" : 900035147,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 2713982013,
+  "shuffleWriteRecords" : 239983445,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 4964,
+    "name" : "scan time total (min, med, max)",
+    "value" : "90598"
+  }, {
+    "id" : 4973,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "4221131303"
+  }, {
+    "id" : 4982,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4081380,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4058856,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7812,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16760,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25118,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0))]"
+  }, {
+    "id" : 4991,
+    "name" : "internal.metrics.shuffle.write.writeTime",
+    "value" : "20853684564"
+  }, {
+    "id" : 4976,
+    "name" : "internal.metrics.resultSize",
+    "value" : "718406"
+  }, {
+    "id" : 4975,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "295380271326"
+  }, {
+    "id" : 4993,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "900035147"
+  }, {
+    "id" : 4978,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "43"
+  }, {
+    "id" : 4972,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "10954"
+  }, {
+    "id" : 4963,
+    "name" : "number of output rows",
+    "value" : "900035147"
+  }, {
+    "id" : 4990,
+    "name" : "internal.metrics.shuffle.write.recordsWritten",
+    "value" : "239983445"
+  }, {
+    "id" : 4962,
+    "name" : "number of output rows",
+    "value" : "239983445"
+  }, {
+    "id" : 4989,
+    "name" : "internal.metrics.shuffle.write.bytesWritten",
+    "value" : "2713982013"
+  }, {
+    "id" : 4974,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "399137"
+  }, {
+    "id" : 4992,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "8286239777"
+  }, {
+    "id" : 4977,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "86239"
+  }, {
+    "id" : 4953,
+    "name" : "data size total (min, med, max)",
+    "value" : "5759602374"
+  }, {
+    "id" : 4961,
+    "name" : "duration total (min, med, max)",
+    "value" : "376242"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 3,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 100,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 12023,
+  "executorCpuTime" : 7621225923,
+  "submissionTime" : "2017-06-04T16:43:42.865GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:43.380GMT",
+  "completionTime" : "2017-06-04T16:43:45.008GMT",
+  "inputBytes" : 105917236,
+  "inputRecords" : 2209,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "bloomFilter at Q3_Bloom.scala:35",
+  "details" : "org.apache.spark.sql.DataFrameStatFunctions.bloomFilter(DataFrameStatFunctions.scala:473)\nQ3_Bloom.query(Q3_Bloom.scala:35)\nQ3.run(Q3.scala:28)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2173,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "6107"
+  }, {
+    "id" : 2167,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "8011"
+  }, {
+    "id" : 2188,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "2209"
+  }, {
+    "id" : 2170,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "7621225923"
+  }, {
+    "id" : 2187,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "105917236"
+  }, {
+    "id" : 2169,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "12023"
+  }, {
+    "id" : 2172,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "461"
+  }, {
+    "id" : 2118,
+    "name" : "number of output rows",
+    "value" : "21856586"
+  }, {
+    "id" : 2177,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),29414,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),4095264,0))]"
+  }, {
+    "id" : 2168,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "5571613516"
+  }, {
+    "id" : 2171,
+    "name" : "internal.metrics.resultSize",
+    "value" : "410049227"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 2,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 100,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 227082,
+  "executorCpuTime" : 129408813858,
+  "submissionTime" : "2017-06-04T16:43:39.653GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:39.654GMT",
+  "completionTime" : "2017-06-04T16:43:44.125GMT",
+  "inputBytes" : 855269989,
+  "inputRecords" : 225000000,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "countApprox at Q3_Bloom.scala:24",
+  "details" : "org.apache.spark.rdd.RDD.countApprox(RDD.scala:1175)\nQ3_Bloom.query(Q3_Bloom.scala:24)\nQ3.run(Q3.scala:28)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 101,
+    "name" : "number of output rows",
+    "value" : "21856586"
+  }, {
+    "id" : 104,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "227082"
+  }, {
+    "id" : 122,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "855269989"
+  }, {
+    "id" : 107,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "9340"
+  }, {
+    "id" : 98,
+    "name" : "scan time total (min, med, max)",
+    "value" : "103211"
+  }, {
+    "id" : 106,
+    "name" : "internal.metrics.resultSize",
+    "value" : "251967"
+  }, {
+    "id" : 100,
+    "name" : "duration total (min, med, max)",
+    "value" : "361192"
+  }, {
+    "id" : 103,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "10443550220"
+  }, {
+    "id" : 112,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_40,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1063576,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_23,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062256,0)), (rdd_8_66,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061584,0)), (rdd_8_52,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062744,0)), (rdd_8_14,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060768,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_50,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061776,0)), (rdd_8_62,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061200,0)), (rdd_8_36,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060104,0)), (rdd_8_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1080600,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_20,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061464,0)), (rdd_8_87,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062008,0)), (rdd_8_83,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060888,0)), (rdd_8_75,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060920,0)), (rdd_8_80,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062296,0)), (rdd_8_84,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060072,0)), (rdd_8_88,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062616,0)), (rdd_8_70,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059848,0)), (rdd_8_71,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062952,0)), (rdd_8_72,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1063056,0)), (rdd_8_73,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059824,0)), (rdd_8_64,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062072,0)), (rdd_8_90,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062336,0)), (rdd_8_92,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060664,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1066888,0)), (rdd_8_38,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061264,0)), (rdd_8_51,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062472,0)), (rdd_8_29,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061672,0)), (rdd_8_68,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060344,0)), (rdd_8_93,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061712,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_47,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061768,0)), (rdd_8_32,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059968,0)), (rdd_8_21,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059496,0)), (rdd_8_60,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061944,0)), (rdd_8_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1073128,0)), (rdd_8_56,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062488,0)), (rdd_8_25,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060088,0)), (rdd_8_12,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061128,0)), (rdd_8_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1066224,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_44,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059216,0)), (rdd_8_95,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061984,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_41,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060952,0)), (rdd_8_54,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062408,0)), (rdd_8_74,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062688,0)), (rdd_8_16,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062240,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_24,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061264,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_58,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062240,0)), (rdd_8_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1068024,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_28,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1063312,0)), (rdd_8_46,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1058984,0)), (rdd_8_19,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062864,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_39,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062544,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_69,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060144,0)), (rdd_8_31,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060376,0)), (rdd_8_59,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061408,0)), (rdd_8_11,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060144,0)), (rdd_8_67,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060680,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_48,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060760,0)), (rdd_8_33,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060400,0)), (rdd_8_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1080296,0)), (rdd_8_65,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061440,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_17,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1064096,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1075624,0)), (rdd_8_34,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060576,0)), (rdd_8_96,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062520,0)), (rdd_8_43,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061648,0)), (rdd_8_78,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061208,0)), (rdd_8_97,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062104,0)), (rdd_8_77,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060952,0)), (rdd_8_81,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061832,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_13,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060640,0)), (rdd_8_55,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060264,0)), (rdd_8_45,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061696,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_26,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060120,0)), (rdd_8_98,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1058216,0)), (rdd_8_79,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1063416,0)), (rdd_8_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1088072,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_30,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060248,0)), (rdd_8_76,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059640,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_10,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1074080,0)), (rdd_8_22,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059864,0)), (rdd_8_63,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061208,0)), (rdd_8_37,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061040,0)), (rdd_8_53,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062112,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (rdd_8_49,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062368,0)), (rdd_8_61,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1058424,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_35,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1063728,0)), (rdd_8_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1068616,0)), (rdd_8_86,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060248,0)), (rdd_8_18,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060848,0)), (rdd_8_89,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1059880,0)), (rdd_8_82,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062432,0)), (rdd_8_85,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060960,0)), (rdd_8_99,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1043800,0)), (rdd_8_94,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1061728,0)), (rdd_8_91,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1060784,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25100,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309520,0)), (rdd_8_42,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062624,0)), (rdd_8_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1074432,0)), (rdd_8_15,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062464,0)), (rdd_8_27,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062672,0)), (rdd_8_57,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1062440,0))]"
+  }, {
+    "id" : 97,
+    "name" : "number of output rows",
+    "value" : "225000000"
+  }, {
+    "id" : 105,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "129408813858"
+  }, {
+    "id" : 123,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "225000000"
+  }, {
+    "id" : 99,
+    "name" : "number of output rows",
+    "value" : "21856586"
+  }, {
+    "id" : 108,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "11"
+  }, {
+    "id" : 102,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "37079"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 1,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 801,
+  "executorCpuTime" : 90065559,
+  "submissionTime" : "2017-06-04T16:43:37.039GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:37.040GMT",
+  "completionTime" : "2017-06-04T16:43:38.340GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 50,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "801"
+  }, {
+    "id" : 53,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "27"
+  }, {
+    "id" : 58,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_1_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26054,0)), (broadcast_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72928,0))]"
+  }, {
+    "id" : 49,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "374774843"
+  }, {
+    "id" : 52,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3389"
+  }, {
+    "id" : 54,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "5"
+  }, {
+    "id" : 48,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "454"
+  }, {
+    "id" : 51,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "90065559"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 0,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 1000,
+  "executorCpuTime" : 114204276,
+  "submissionTime" : "2017-06-04T16:43:33.816GMT",
+  "firstTaskLaunchedTime" : "2017-06-04T16:43:33.821GMT",
+  "completionTime" : "2017-06-04T16:43:35.509GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:71)\nMain$.main(JoinApp.scala:65)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "1000"
+  }, {
+    "id" : 4,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3024"
+  }, {
+    "id" : 10,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_0_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26049,0)), (broadcast_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72928,0))]"
+  }, {
+    "id" : 1,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "479354556"
+  }, {
+    "id" : 3,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "114204276"
+  }, {
+    "id" : 6,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "6"
+  }, {
+    "id" : 0,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "550"
+  } ]
+} ]

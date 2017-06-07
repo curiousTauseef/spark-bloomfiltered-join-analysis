@@ -1,0 +1,17 @@
+{
+  "jobId" : 2,
+  "name" : "countApprox at Q3_Bloom.scala:24",
+  "submissionTime" : "2017-06-04T16:41:44.977GMT",
+  "completionTime" : "2017-06-04T16:41:50.432GMT",
+  "stageIds" : [ 2 ],
+  "status" : "SUCCEEDED",
+  "numTasks" : 100,
+  "numActiveTasks" : 0,
+  "numCompletedTasks" : 100,
+  "numSkippedTasks" : 0,
+  "numFailedTasks" : 0,
+  "numActiveStages" : 0,
+  "numCompletedStages" : 1,
+  "numSkippedStages" : 0,
+  "numFailedStages" : 0
+}

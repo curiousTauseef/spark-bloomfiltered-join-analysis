@@ -1,0 +1,17 @@
+{
+  "jobId" : 3,
+  "name" : "bloomFilter at Q3_Bloom.scala:34",
+  "submissionTime" : "2017-06-02T14:00:07.222GMT",
+  "completionTime" : "2017-06-02T14:00:14.207GMT",
+  "stageIds" : [ 3 ],
+  "status" : "SUCCEEDED",
+  "numTasks" : 48,
+  "numActiveTasks" : 0,
+  "numCompletedTasks" : 48,
+  "numSkippedTasks" : 0,
+  "numFailedTasks" : 0,
+  "numActiveStages" : 0,
+  "numCompletedStages" : 1,
+  "numSkippedStages" : 0,
+  "numFailedStages" : 0
+}

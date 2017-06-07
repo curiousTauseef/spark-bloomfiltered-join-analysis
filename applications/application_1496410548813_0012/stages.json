@@ -1,0 +1,579 @@
+[ {
+  "status" : "COMPLETE",
+  "stageId" : 6,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 200,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 24909,
+  "executorCpuTime" : 20267352083,
+  "submissionTime" : "2017-06-02T15:16:31.900GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:16:31.901GMT",
+  "completionTime" : "2017-06-02T15:16:38.782GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 401727160,
+  "shuffleReadRecords" : 33877077,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2470,
+    "name" : "sort time total (min, med, max)",
+    "value" : "460"
+  }, {
+    "id" : 2461,
+    "name" : "duration total (min, med, max)",
+    "value" : "18548"
+  }, {
+    "id" : 8481,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "1365"
+  }, {
+    "id" : 8490,
+    "name" : "internal.metrics.shuffle.read.localBytesRead",
+    "value" : "83278608"
+  }, {
+    "id" : 2460,
+    "name" : "number of output rows",
+    "value" : "2982334"
+  }, {
+    "id" : 2463,
+    "name" : "peak memory total (min, med, max)",
+    "value" : "4194303799"
+  }, {
+    "id" : 8492,
+    "name" : "internal.metrics.shuffle.read.recordsRead",
+    "value" : "33877077"
+  }, {
+    "id" : 8477,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "1836243924"
+  }, {
+    "id" : 8486,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38851,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102824,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38851,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102824,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38851,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102824,0)), (broadcast_9_piece0,BlockStatus(StorageLevel(memory, 1 replicas),38851,0)), (broadcast_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),102824,0))]"
+  }, {
+    "id" : 8480,
+    "name" : "internal.metrics.resultSize",
+    "value" : "715646"
+  }, {
+    "id" : 8489,
+    "name" : "internal.metrics.shuffle.read.remoteBytesRead",
+    "value" : "318448552"
+  }, {
+    "id" : 2459,
+    "name" : "duration total (min, med, max)",
+    "value" : "17372"
+  }, {
+    "id" : 8479,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "20267352083"
+  }, {
+    "id" : 8488,
+    "name" : "internal.metrics.shuffle.read.localBlocksFetched",
+    "value" : "10349"
+  }, {
+    "id" : 2471,
+    "name" : "peak memory total (min, med, max)",
+    "value" : "4194303799"
+  }, {
+    "id" : 8482,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "10"
+  }, {
+    "id" : 8491,
+    "name" : "internal.metrics.shuffle.read.fetchWaitTime",
+    "value" : "340"
+  }, {
+    "id" : 2462,
+    "name" : "sort time total (min, med, max)",
+    "value" : "746"
+  }, {
+    "id" : 8476,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "1904"
+  }, {
+    "id" : 8485,
+    "name" : "internal.metrics.peakExecutionMemory",
+    "value" : "8388608000"
+  }, {
+    "id" : 8478,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "24909"
+  }, {
+    "id" : 8487,
+    "name" : "internal.metrics.shuffle.read.remoteBlocksFetched",
+    "value" : "39251"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 5,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 200,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 114262,
+  "executorCpuTime" : 104863481714,
+  "submissionTime" : "2017-06-02T15:16:05.515GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:16:08.005GMT",
+  "completionTime" : "2017-06-02T15:16:31.764GMT",
+  "inputBytes" : 6080567932,
+  "inputRecords" : 598396574,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 223379600,
+  "shuffleWriteRecords" : 19333694,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2520,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "6080567932"
+  }, {
+    "id" : 2505,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "5305"
+  }, {
+    "id" : 2517,
+    "name" : "internal.metrics.shuffle.write.bytesWritten",
+    "value" : "223379600"
+  }, {
+    "id" : 2502,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "114262"
+  }, {
+    "id" : 2457,
+    "name" : "data size total (min, med, max)",
+    "value" : "464008455"
+  }, {
+    "id" : 2466,
+    "name" : "number of output rows",
+    "value" : "19333694"
+  }, {
+    "id" : 2501,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "611938851"
+  }, {
+    "id" : 2510,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7817,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16768,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25096,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7817,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16768,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25096,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7817,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16768,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25096,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7817,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16768,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25096,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (broadcast_8_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7817,0)), (broadcast_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),16768,0)), (broadcast_6_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25096,0)), (broadcast_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0))]"
+  }, {
+    "id" : 2519,
+    "name" : "internal.metrics.shuffle.write.writeTime",
+    "value" : "4283722945"
+  }, {
+    "id" : 2468,
+    "name" : "scan time total (min, med, max)",
+    "value" : "35820"
+  }, {
+    "id" : 2504,
+    "name" : "internal.metrics.resultSize",
+    "value" : "455923"
+  }, {
+    "id" : 2465,
+    "name" : "duration total (min, med, max)",
+    "value" : "108319"
+  }, {
+    "id" : 2506,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "18"
+  }, {
+    "id" : 2518,
+    "name" : "internal.metrics.shuffle.write.recordsWritten",
+    "value" : "19333694"
+  }, {
+    "id" : 2500,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "627"
+  }, {
+    "id" : 2467,
+    "name" : "number of output rows",
+    "value" : "598396574"
+  }, {
+    "id" : 2503,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "104863481714"
+  }, {
+    "id" : 2521,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "598396574"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 4,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 48,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 13516,
+  "executorCpuTime" : 12963287755,
+  "submissionTime" : "2017-06-02T15:16:05.447GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:16:05.447GMT",
+  "completionTime" : "2017-06-02T15:16:08.809GMT",
+  "inputBytes" : 70993608,
+  "inputRecords" : 1492,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 178347560,
+  "shuffleWriteRecords" : 14543383,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:42",
+  "details" : "org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:494)\nQ3.run(Q3.scala:42)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2479,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "12963287755"
+  }, {
+    "id" : 2478,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "13516"
+  }, {
+    "id" : 2496,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "70993608"
+  }, {
+    "id" : 2481,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "336"
+  }, {
+    "id" : 2475,
+    "name" : "number of output rows",
+    "value" : "14543383"
+  }, {
+    "id" : 2493,
+    "name" : "internal.metrics.shuffle.write.bytesWritten",
+    "value" : "178347560"
+  }, {
+    "id" : 2474,
+    "name" : "number of output rows",
+    "value" : "14543383"
+  }, {
+    "id" : 2477,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "710895531"
+  }, {
+    "id" : 2486,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10307,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23592,0)), (broadcast_5_piece1,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece2,BlockStatus(StorageLevel(memory, 1 replicas),2945254,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11271480,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10307,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23592,0)), (broadcast_5_piece2,BlockStatus(StorageLevel(memory, 1 replicas),2945254,0)), (broadcast_5_piece1,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11271480,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10307,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23592,0)), (broadcast_5_piece1,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece2,BlockStatus(StorageLevel(memory, 1 replicas),2945254,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11271480,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10307,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23592,0)), (broadcast_5_piece1,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece2,BlockStatus(StorageLevel(memory, 1 replicas),2945254,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11271480,0)), (broadcast_7_piece0,BlockStatus(StorageLevel(memory, 1 replicas),10307,0)), (broadcast_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),23592,0)), (broadcast_5_piece0,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece1,BlockStatus(StorageLevel(memory, 1 replicas),4194304,0)), (broadcast_5_piece2,BlockStatus(StorageLevel(memory, 1 replicas),2945254,0)), (broadcast_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11271480,0))]"
+  }, {
+    "id" : 2495,
+    "name" : "internal.metrics.shuffle.write.writeTime",
+    "value" : "1531569232"
+  }, {
+    "id" : 2480,
+    "name" : "internal.metrics.resultSize",
+    "value" : "125142"
+  }, {
+    "id" : 2497,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "1492"
+  }, {
+    "id" : 2473,
+    "name" : "duration total (min, med, max)",
+    "value" : "11138"
+  }, {
+    "id" : 2482,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "5"
+  }, {
+    "id" : 2458,
+    "name" : "data size total (min, med, max)",
+    "value" : "581735271"
+  }, {
+    "id" : 2476,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "768"
+  }, {
+    "id" : 2494,
+    "name" : "internal.metrics.shuffle.write.recordsWritten",
+    "value" : "14543383"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 3,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 48,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 3629,
+  "executorCpuTime" : 3081352753,
+  "submissionTime" : "2017-06-02T15:15:55.454GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:16:00.108GMT",
+  "completionTime" : "2017-06-02T15:16:03.864GMT",
+  "inputBytes" : 70838062,
+  "inputRecords" : 1492,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "bloomFilter at Q3_Bloom.scala:35",
+  "details" : "org.apache.spark.sql.DataFrameStatFunctions.bloomFilter(DataFrameStatFunctions.scala:497)\nQ3_Bloom.query(Q3_Bloom.scala:35)\nQ3.run(Q3.scala:28)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 340,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "1492"
+  }, {
+    "id" : 322,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "3081352753"
+  }, {
+    "id" : 325,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "2274"
+  }, {
+    "id" : 319,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "2605"
+  }, {
+    "id" : 318,
+    "name" : "number of output rows",
+    "value" : "14543383"
+  }, {
+    "id" : 339,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "70838062"
+  }, {
+    "id" : 321,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "3629"
+  }, {
+    "id" : 324,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "684"
+  }, {
+    "id" : 323,
+    "name" : "internal.metrics.resultSize",
+    "value" : "546418426"
+  }, {
+    "id" : 329,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),67958,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11343104,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),67958,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11343104,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),67958,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11343104,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),67958,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11343104,0)), (broadcast_4_piece0,BlockStatus(StorageLevel(memory, 1 replicas),67958,0)), (broadcast_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),11343104,0))]"
+  }, {
+    "id" : 320,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "2336810425"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 2,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 48,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 38789,
+  "executorCpuTime" : 32454917893,
+  "submissionTime" : "2017-06-02T15:15:52.139GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:15:52.141GMT",
+  "completionTime" : "2017-06-02T15:16:00.880GMT",
+  "inputBytes" : 1336347426,
+  "inputRecords" : 149712594,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "countApprox at Q3_Bloom.scala:24",
+  "details" : "org.apache.spark.rdd.RDD.countApprox(RDD.scala:1175)\nQ3_Bloom.query(Q3_Bloom.scala:24)\nQ3.run(Q3.scala:28)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 101,
+    "name" : "number of output rows",
+    "value" : "14543383"
+  }, {
+    "id" : 104,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "38789"
+  }, {
+    "id" : 122,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "1336347426"
+  }, {
+    "id" : 107,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "5715"
+  }, {
+    "id" : 98,
+    "name" : "scan time total (min, med, max)",
+    "value" : "13318"
+  }, {
+    "id" : 106,
+    "name" : "internal.metrics.resultSize",
+    "value" : "122129"
+  }, {
+    "id" : 100,
+    "name" : "duration total (min, med, max)",
+    "value" : "64419"
+  }, {
+    "id" : 103,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "1986891783"
+  }, {
+    "id" : 112,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25043,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (rdd_8_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1468472,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25043,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (rdd_8_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1477032,0)), (rdd_8_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1473696,0)), (rdd_8_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1472976,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25043,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (rdd_8_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1473296,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25043,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (rdd_8_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1474016,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7998,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17272,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25043,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309040,0)), (rdd_8_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476536,0)), (rdd_8_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1477384,0)), (rdd_8_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476848,0)), (rdd_8_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476504,0)), (rdd_8_10,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476096,0)), (rdd_8_12,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475480,0)), (rdd_8_11,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476592,0)), (rdd_8_13,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1474216,0)), (rdd_8_15,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1471416,0)), (rdd_8_14,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478600,0)), (rdd_8_20,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478760,0)), (rdd_8_16,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476920,0)), (rdd_8_18,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476584,0)), (rdd_8_23,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1477424,0)), (rdd_8_17,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475376,0)), (rdd_8_21,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1470352,0)), (rdd_8_19,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1469880,0)), (rdd_8_25,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1473496,0)), (rdd_8_24,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475768,0)), (rdd_8_26,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1469160,0)), (rdd_8_22,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),2937624,0)), (rdd_8_28,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1471824,0)), (rdd_8_32,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475080,0)), (rdd_8_27,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1471672,0)), (rdd_8_31,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1471536,0)), (rdd_8_30,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475768,0)), (rdd_8_29,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1469856,0)), (rdd_8_39,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1469360,0)), (rdd_8_33,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478264,0)), (rdd_8_37,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1474312,0)), (rdd_8_35,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478896,0)), (rdd_8_34,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1480112,0)), (rdd_8_40,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476880,0)), (rdd_8_38,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478424,0)), (rdd_8_36,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1472744,0)), (rdd_8_41,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1475752,0)), (rdd_8_42,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1473736,0)), (rdd_8_43,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1477728,0)), (rdd_8_44,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1474032,0)), (rdd_8_47,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),212440,0)), (rdd_8_45,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1476424,0)), (rdd_8_46,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),1478264,0))]"
+  }, {
+    "id" : 97,
+    "name" : "number of output rows",
+    "value" : "149712594"
+  }, {
+    "id" : 105,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "32454917893"
+  }, {
+    "id" : 123,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "149712594"
+  }, {
+    "id" : 99,
+    "name" : "number of output rows",
+    "value" : "14543383"
+  }, {
+    "id" : 108,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "6"
+  }, {
+    "id" : 102,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "2173"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 1,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 1104,
+  "executorCpuTime" : 116375574,
+  "submissionTime" : "2017-06-02T15:15:48.941GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:15:48.942GMT",
+  "completionTime" : "2017-06-02T15:15:50.620GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 50,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "1104"
+  }, {
+    "id" : 53,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "22"
+  }, {
+    "id" : 58,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_1_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26064,0)), (broadcast_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72760,0))]"
+  }, {
+    "id" : 49,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "471145148"
+  }, {
+    "id" : 52,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3389"
+  }, {
+    "id" : 54,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "6"
+  }, {
+    "id" : 48,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "523"
+  }, {
+    "id" : 51,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "116375574"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 0,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 898,
+  "executorCpuTime" : 94368477,
+  "submissionTime" : "2017-06-02T15:15:45.701GMT",
+  "firstTaskLaunchedTime" : "2017-06-02T15:15:45.705GMT",
+  "completionTime" : "2017-06-02T15:15:47.168GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:38)\nMain$.main(JoinApp.scala:25)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "898"
+  }, {
+    "id" : 5,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "29"
+  }, {
+    "id" : 4,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3097"
+  }, {
+    "id" : 10,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_0_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26059,0)), (broadcast_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72760,0))]"
+  }, {
+    "id" : 1,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "392857297"
+  }, {
+    "id" : 3,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "94368477"
+  }, {
+    "id" : 6,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "4"
+  }, {
+    "id" : 0,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "464"
+  } ]
+} ]

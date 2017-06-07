@@ -1,0 +1,17 @@
+{
+  "jobId" : 2,
+  "name" : "parquet at Q3.scala:42",
+  "submissionTime" : "2017-06-03T18:08:01.306GMT",
+  "completionTime" : "2017-06-03T18:08:38.912GMT",
+  "stageIds" : [ 2, 3, 4 ],
+  "status" : "SUCCEEDED",
+  "numTasks" : 772,
+  "numActiveTasks" : 0,
+  "numCompletedTasks" : 772,
+  "numSkippedTasks" : 0,
+  "numFailedTasks" : 0,
+  "numActiveStages" : 0,
+  "numCompletedStages" : 3,
+  "numSkippedStages" : 0,
+  "numFailedStages" : 0
+}

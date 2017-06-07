@@ -1,0 +1,203 @@
+[ {
+  "status" : "COMPLETE",
+  "stageId" : 2,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 100,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 255462,
+  "executorCpuTime" : 37551283428,
+  "submissionTime" : "2017-06-03T13:43:56.947GMT",
+  "firstTaskLaunchedTime" : "2017-06-03T13:43:56.948GMT",
+  "completionTime" : "2017-06-03T13:44:16.180GMT",
+  "inputBytes" : 2033100404,
+  "inputRecords" : 225000000,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "countApprox at Q3_Bloom.scala:24",
+  "details" : "org.apache.spark.rdd.RDD.countApprox(RDD.scala:1175)\nQ3_Bloom.query(Q3_Bloom.scala:24)\nQ3.run(Q3.scala:28)\nMain$.query(JoinApp.scala:43)\nMain$.main(JoinApp.scala:30)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 101,
+    "name" : "number of output rows",
+    "value" : "2186298"
+  }, {
+    "id" : 104,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "255462"
+  }, {
+    "id" : 122,
+    "name" : "internal.metrics.input.bytesRead",
+    "value" : "2033100404"
+  }, {
+    "id" : 107,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "8662"
+  }, {
+    "id" : 98,
+    "name" : "scan time total (min, med, max)",
+    "value" : "231633"
+  }, {
+    "id" : 106,
+    "name" : "internal.metrics.resultSize",
+    "value" : "249994"
+  }, {
+    "id" : 100,
+    "name" : "duration total (min, med, max)",
+    "value" : "485806"
+  }, {
+    "id" : 103,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "2672993784"
+  }, {
+    "id" : 112,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(rdd_8_11,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177200,0)), (rdd_8_14,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179600,0)), (rdd_8_9,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179240,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7997,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17280,0)), (rdd_8_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180904,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25007,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309472,0)), (rdd_8_6,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180320,0)), (rdd_8_5,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177888,0)), (rdd_8_18,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177512,0)), (rdd_8_19,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178232,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25007,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309472,0)), (rdd_8_8,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),181096,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7997,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17280,0)), (rdd_8_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180016,0)), (rdd_8_12,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179584,0)), (rdd_8_23,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178216,0)), (rdd_8_21,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178832,0)), (rdd_8_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),181696,0)), (rdd_8_24,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178696,0)), (rdd_8_26,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176448,0)), (rdd_8_28,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179256,0)), (rdd_8_31,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177280,0)), (rdd_8_16,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178296,0)), (rdd_8_10,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179296,0)), (broadcast_2_piece0,BlockStatus(StorageLevel(memory, 1 replicas),25007,0)), (broadcast_2,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),309472,0)), (rdd_8_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180160,0)), (rdd_8_4,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180840,0)), (rdd_8_15,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180112,0)), (rdd_8_17,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178384,0)), (rdd_8_20,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178952,0)), (rdd_8_36,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177168,0)), (broadcast_3_piece0,BlockStatus(StorageLevel(memory, 1 replicas),7997,0)), (broadcast_3,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),17280,0)), (rdd_8_13,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177520,0)), (rdd_8_27,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177672,0)), (rdd_8_7,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179456,0)), (rdd_8_30,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180200,0)), (rdd_8_25,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177392,0)), (rdd_8_29,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178056,0)), (rdd_8_32,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178440,0)), (rdd_8_22,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180040,0)), (rdd_8_48,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176376,0)), (rdd_8_33,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178504,0)), (rdd_8_34,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179160,0)), (rdd_8_35,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180440,0)), (rdd_8_37,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178176,0)), (rdd_8_52,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176240,0)), (rdd_8_39,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177752,0)), (rdd_8_54,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179728,0)), (rdd_8_56,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178008,0)), (rdd_8_46,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178744,0)), (rdd_8_44,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177912,0)), (rdd_8_38,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177440,0)), (rdd_8_40,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177720,0)), (rdd_8_45,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178240,0)), (rdd_8_41,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177784,0)), (rdd_8_50,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178408,0)), (rdd_8_42,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177488,0)), (rdd_8_64,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176872,0)), (rdd_8_43,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),175960,0)), (rdd_8_65,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176472,0)), (rdd_8_66,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177952,0)), (rdd_8_67,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178112,0)), (rdd_8_47,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177520,0)), (rdd_8_53,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177952,0)), (rdd_8_51,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178912,0)), (rdd_8_71,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177256,0)), (rdd_8_49,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177408,0)), (rdd_8_74,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178456,0)), (rdd_8_58,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179576,0)), (rdd_8_57,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178552,0)), (rdd_8_55,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179160,0)), (rdd_8_77,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178336,0)), (rdd_8_78,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177808,0)), (rdd_8_59,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178936,0)), (rdd_8_79,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179576,0)), (rdd_8_81,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177624,0)), (rdd_8_80,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177336,0)), (rdd_8_60,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177920,0)), (rdd_8_61,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178128,0)), (rdd_8_86,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177880,0)), (rdd_8_88,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178016,0)), (rdd_8_69,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177144,0)), (rdd_8_63,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177720,0)), (rdd_8_70,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176352,0)), (rdd_8_92,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178600,0)), (rdd_8_72,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177048,0)), (rdd_8_73,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),175248,0)), (rdd_8_94,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),181648,0)), (rdd_8_62,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178920,0)), (rdd_8_95,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177544,0)), (rdd_8_96,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178624,0)), (rdd_8_68,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177352,0)), (rdd_8_83,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176960,0)), (rdd_8_82,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),180288,0)), (rdd_8_84,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179712,0)), (rdd_8_75,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),178408,0)), (rdd_8_87,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176384,0)), (rdd_8_85,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176040,0)), (rdd_8_90,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179776,0)), (rdd_8_76,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),176904,0)), (rdd_8_99,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),172536,0)), (rdd_8_91,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177136,0)), (rdd_8_98,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),175728,0)), (rdd_8_93,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177632,0)), (rdd_8_97,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),179032,0)), (rdd_8_89,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),177856,0))]"
+  }, {
+    "id" : 97,
+    "name" : "number of output rows",
+    "value" : "225000000"
+  }, {
+    "id" : 105,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "37551283428"
+  }, {
+    "id" : 123,
+    "name" : "internal.metrics.input.recordsRead",
+    "value" : "225000000"
+  }, {
+    "id" : 99,
+    "name" : "number of output rows",
+    "value" : "2186298"
+  }, {
+    "id" : 108,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "12"
+  }, {
+    "id" : 102,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "12291"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 1,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 1436,
+  "executorCpuTime" : 114026948,
+  "submissionTime" : "2017-06-03T13:43:50.779GMT",
+  "firstTaskLaunchedTime" : "2017-06-03T13:43:50.780GMT",
+  "completionTime" : "2017-06-03T13:43:54.848GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:43)\nMain$.main(JoinApp.scala:30)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 50,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "1436"
+  }, {
+    "id" : 53,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "40"
+  }, {
+    "id" : 58,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_1_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26057,0)), (broadcast_1,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72888,0))]"
+  }, {
+    "id" : 49,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "495952795"
+  }, {
+    "id" : 52,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3389"
+  }, {
+    "id" : 54,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "5"
+  }, {
+    "id" : 48,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "2580"
+  }, {
+    "id" : 51,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "114026948"
+  } ]
+}, {
+  "status" : "COMPLETE",
+  "stageId" : 0,
+  "attemptId" : 0,
+  "numActiveTasks" : 0,
+  "numCompleteTasks" : 1,
+  "numFailedTasks" : 0,
+  "executorRunTime" : 1121,
+  "executorCpuTime" : 124023897,
+  "submissionTime" : "2017-06-03T13:43:46.897GMT",
+  "firstTaskLaunchedTime" : "2017-06-03T13:43:46.901GMT",
+  "completionTime" : "2017-06-03T13:43:48.834GMT",
+  "inputBytes" : 0,
+  "inputRecords" : 0,
+  "outputBytes" : 0,
+  "outputRecords" : 0,
+  "shuffleReadBytes" : 0,
+  "shuffleReadRecords" : 0,
+  "shuffleWriteBytes" : 0,
+  "shuffleWriteRecords" : 0,
+  "memoryBytesSpilled" : 0,
+  "diskBytesSpilled" : 0,
+  "name" : "parquet at Q3.scala:16",
+  "details" : "org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:425)\nQ3.registerView(Q3.scala:16)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nQ3$$anonfun$prepare$1.apply(Q3.scala:20)\nscala.collection.immutable.List.foreach(List.scala:381)\nQ3.prepare(Q3.scala:20)\nQ3.run(Q3.scala:27)\nMain$.query(JoinApp.scala:43)\nMain$.main(JoinApp.scala:30)\nMain.main(JoinApp.scala)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:606)\norg.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:738)\norg.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:187)\norg.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:212)\norg.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:126)\norg.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+  "schedulingPool" : "default",
+  "accumulatorUpdates" : [ {
+    "id" : 2,
+    "name" : "internal.metrics.executorRunTime",
+    "value" : "1121"
+  }, {
+    "id" : 5,
+    "name" : "internal.metrics.jvmGCTime",
+    "value" : "36"
+  }, {
+    "id" : 4,
+    "name" : "internal.metrics.resultSize",
+    "value" : "3097"
+  }, {
+    "id" : 10,
+    "name" : "internal.metrics.updatedBlockStatuses",
+    "value" : "[(broadcast_0_piece0,BlockStatus(StorageLevel(memory, 1 replicas),26052,0)), (broadcast_0,BlockStatus(StorageLevel(memory, deserialized, 1 replicas),72888,0))]"
+  }, {
+    "id" : 1,
+    "name" : "internal.metrics.executorDeserializeCpuTime",
+    "value" : "502586959"
+  }, {
+    "id" : 3,
+    "name" : "internal.metrics.executorCpuTime",
+    "value" : "124023897"
+  }, {
+    "id" : 6,
+    "name" : "internal.metrics.resultSerializationTime",
+    "value" : "6"
+  }, {
+    "id" : 0,
+    "name" : "internal.metrics.executorDeserializeTime",
+    "value" : "697"
+  } ]
+} ]
